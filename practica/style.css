@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.ulRandomNumbers{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ulRandomNumbers li{
+    font-size: 2.5rem;
+    border: 1px black dashed;
+    padding: 20px;
+
+}
+
+.containerbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 15px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    background-color: #2980b9;
+}
